@@ -10,7 +10,7 @@ summaryLength = 70
 buildFuture = true
 
 copyright = "&copy;{year}, All Rights Reserved"
-timeout = 10000
+timeout = 100000
 enableEmoji = true
 paginate = 13
 rssLimit = 100
