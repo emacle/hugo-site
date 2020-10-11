@@ -1,7 +1,7 @@
-logoText = "Zzo"
+logoText = "Home"
 logoType = "short" # long, short
-description = "The Zzo theme for Hugo example site."
-custom_css = []
+description = "Personal tech blog about Emacs orgmode hugo php vue.js."
+custom_css = ["css/custom.css"]
 custom_js = []
 useFaviconGenerator = true # https://www.favicon-generator.org/
 meta_image = ""
@@ -13,20 +13,22 @@ notAllowedTypesInHomeSidebar = ["about", "archive", "showcase", "publication", "
 notAllowedTypesInArchive = ["about", "talks", "showcase", "publication", "presentation", "resume"]
 notAllowedTypesInHomeFeed = ["about", "archive", "contact", "talks", "showcase", "publication", "presentation", "resume", "gallery"]
 
+# viewportSize = "normal" # widest, wider, wide, normal, narrow
 viewportSize = "normal" # widest, wider, wide, normal, narrow
-enableUiAnimation = true
+enableUiAnimation = true # 启用过渡动画
 hideSingleContentsWhenJSDisabled = false
 enablePinnedPosts = true
 minItemsToShowInTagCloud = 1 # Minimum items to show in tag cloud
 
 # header
-homeHeaderType = "text" # text, img, slide, typewriter
+homeHeaderType = "typewriter" # text, img, slide, typewriter
 
 # menu
-showMobileMenuTerms = ["tags", "categories", "series"]
+# showMobileMenuTerms = ["tags", "categories", "series"]
+showMobileMenuTerms = ["tags", "categories"]
 
 # body
-enableBreadcrumb = true
+enableBreadcrumb = false
 enablePhotoSwipe = true
 enableSearch = true
 enableSearchHighlight = true
@@ -42,28 +44,29 @@ talksGroupByDate = "2006"
 pubPaginate = 20
 
 # whoami
-myname = "zzossig"
-email = "zzossig@gmail.com"
-whoami = "Web Developer"
+myname = "emacle"
+email = "qkbeyond@gmail.com"
+# whoami = "Web Developer"
+whoami = "Emacser orgmode"
 bioImageUrl = ""
 useGravatar = false
-location = "Seoul, Korea"
-organization = "Hugo"
-link = "https://zzossig.io/ko"
+location = "Zhengzhou, China"
+organization = "Emacs Hugo"
+link = "https://emacle.github.io"
 
 # sidebar
 enableBio = true
 enableBioImage = true
 enableSidebar = true
 enableSidebarTags = true
-enableSidebarSeries = true
+enableSidebarSeries = false
 enableSidebarCategories = true
 enableHomeSidebarTitles = true
 enableListSidebarTitles = true
-enableToc = true
-hideToc = false
+enableToc = true # default true
+hideToc = true
 tocFolding = true
-tocPosition = "inner" # inner, outer
+tocPosition = "outer" # inner, outer
 enableTocSwitch = true
 itemsPerCategory = 5
 sidebarPosition = "right"
@@ -73,8 +76,8 @@ enableSidebarPostsByOrder = false
 # footer
 showPoweredBy = true
 showFeedLinks = true
-showSocialLinks = true
-enableLangChange = true
+showSocialLinks = false
+enableLangChange = false
 enableThemeChange = true
 
 # service
@@ -107,8 +110,8 @@ commento = false
   clientSecret = ""       # Your client secret
 
 [utterances]       # https://utteranc.es/
-  owner = ""              # Your GitHub ID
-  repo = ""               # The repo to store comments
+  owner = "emacle"              # Your GitHub ID
+  repo = "utterances"               # The repo to store comments
 
 [gitalk]           # Gitalk is a comment system based on GitHub issues. see https://github.com/gitalk/gitalk
   owner = ""              # Your GitHub ID
@@ -145,9 +148,11 @@ commento = false
 [socialOptions]
   email = "mailto:your@email.com"
   phone = ""
-  facebook = "http://example.org/"
-  twitter = "http://example.org/"
-  github = "https://github.com/zzossig/hugo-theme-zzo"
+#  facebook = "http://example.org/"
+#  twitter = "http://example.org/"
+  facebook = ""
+  twitter =""
+  github = "https://github.com/emacle"
   stack-overflow = ""
   instagram = ""
   google-plus = ""
@@ -182,11 +187,11 @@ commento = false
   patreon = ""
 
 # possible share name: ["facebook","twitter", "reddit", "linkedin", "tumblr", "weibo", "douban", "line"]
-[[share]]
-  name = "facebook"
-  username = ""
-[[share]]
-  name = "twitter"
+# [[share]]
+#   name = "facebook"
+#   username = ""
+# [[share]]
+#   name = "twitter"
 
 [[footerLinks]]
   name = ""
