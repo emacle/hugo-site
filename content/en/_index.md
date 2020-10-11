@@ -2,12 +2,12 @@
 header:
   - type: typewriter
     methods:
-      - typeString: Hello world!
+      - typeString: Welcome to Emacs Orgmode!
       - pauseFor: 2500
       - deleteAll: true
-      - typeString: Strings can be removed
+      - typeString: The world’s fastest framework for building websites
       - pauseFor: 2500
-      - deleteChars: 7
+      - deleteChars: 8
       - typeString: <strong>altered!</strong>
       - pauseFor: 2500
     options:
@@ -25,7 +25,7 @@ header:
     paddingY: 0
     align: center
     title:
-      - HUGO
+      - Emacs OrgMode
     subtitle:
       - The world’s fastest framework for building websites
     titleColor: 
