@@ -5,6 +5,10 @@ type = "about"
 date = "2019-02-28"
 +++
 
+### Github State
+
+[![emacle's github stats](https://github-readme-stats.vercel.app/api?username=emacle&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)](https://github.com/anuraghazra/github-readme-stats)
+
 Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
 
 Hugo makes use of a variety of open source projects including:
@@ -22,6 +26,4 @@ Hugo is for people who want to hand code their own website without worrying abou
 Websites built with Hugo are extremelly fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
 
 Learn more and contribute on [GitHub](https://github.com/gohugoio).
-
-
 
