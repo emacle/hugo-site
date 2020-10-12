@@ -64,7 +64,7 @@ enableSidebarCategories = true
 enableHomeSidebarTitles = true
 enableListSidebarTitles = true
 enableToc = true # default true
-hideToc = true
+hideToc = false
 tocFolding = true
 tocPosition = "outer" # inner, outer
 enableTocSwitch = true
@@ -192,6 +192,12 @@ commento = false
 #   username = ""
 # [[share]]
 #   name = "twitter"
+
+[copyrightOptions]
+  enableCopyrightLink = false
+  copyrightLink = "http://creativecommons.org/licenses/by-sa/4.0/"
+  copyrightLinkImage = ""
+  copyrightLinkText = "CC BY-SA"
 
 [[footerLinks]]
   name = ""
