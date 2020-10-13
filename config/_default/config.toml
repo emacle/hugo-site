@@ -1,3 +1,5 @@
+# 编译生成 sitemap.xml 时 带绝对路径，以 google 站点地图可以正确扫描
+# hugo.exe -b https://emacle.github.io/
 baseURL = "/"
 title = "Home"
 theme = "zzo"
@@ -10,7 +12,6 @@ summaryLength = 70
 buildFuture = true
 
 copyright = "&copy;{year}, All Rights Reserved"
-# copyright = "&copy;{year}, All Rights Reserved - <script async src='//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js'></script> <span id='busuanzi_container_site_uv'><span id='busuanzi_value_site_uv'></span></span> | <span id='busuanzi_container_site_pv' style='display:none'> <span id='busuanzi_value_site_pv'></span> | <span id='busuanzi_value_page_pv'></span></span>"
 timeout = 100000
 enableEmoji = true
 paginate = 13
