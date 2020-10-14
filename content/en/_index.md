@@ -5,10 +5,10 @@ header:
       - typeString: Welcome to Emacs Orgmode!
       - pauseFor: 2500
       - deleteAll: true
-      - typeString: The world’s fastest framework for building websites
+      - typeString: After many years, do you still remember, How we use to be?
       - pauseFor: 2500
-      - deleteChars: 8
-      - typeString: <strong>altered!</strong>
+      - deleteChars: 10
+      - typeString: <strong>used to be?</strong>
       - pauseFor: 2500
     options:
       loop: true
