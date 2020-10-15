@@ -1,11 +1,11 @@
 +++
 title = "raspberry pi 4"
 author = ["emacle"]
-date = 2020-01-16T09:34:00+08:00
+date = 2019-09-16T09:34:00+08:00
 tags = ["pi"]
 draft = false
 authorEmoji = "🎅"
-image = "images/feature2/bam.png"
+image = "https://www.raspberrypi.org/app/uploads/2011/10/Raspi-PGB001.png"
 pinned = false
 +++
 

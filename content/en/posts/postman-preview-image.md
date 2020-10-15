@@ -5,7 +5,7 @@ date = 2020-05-06T09:30:00+08:00
 tags = ["postman"]
 draft = false
 authorEmoji = "🎅"
-image = "images/feature2/workflow.png"
+image = "https://www.postman.com/assets/logos/postman-logo-stacked.svg"
 pinned = false
 +++
 
