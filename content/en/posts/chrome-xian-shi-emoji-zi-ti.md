@@ -6,13 +6,15 @@ tags = ["hugo"]
 categories = ["hugo", "emacs"]
 draft = false
 authorEmoji = "🎅"
-image = "images/feature2/gallery.png"
+image = "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Twemoji2_1f914.svg/1200px-Twemoji2_1f914.svg.png"
+# image = "https://upload.wikimedia.org/wikipedia/commons/f/fb/718smiley.svg"
 pinned = false
 +++
 
 hugo-theme-zzo 主题启用了Emoji Support
 
-windows 7 下使用chrome浏览器只能通过Segoe UI Symbol字体仅显示部分 `黑白色` emoji (firefox 使用自己的字体渲染可显示彩色emoji)
+windows 7 下使用chrome浏览器只能通过Segoe UI Symbol字体仅显示部分 `黑白色` emoji
+(firefox 使用自己的字体渲染可显示彩色emoji)
 可通过安装 [Chromoji - Emojis for Google Chrome](https://chrome.google.com/webstore/detail/chromoji-emojis-for-googl/negakbijaemdgbhklopmghphgaeadmpo)  扩展使用chrome浏览器达到显示彩色emoji的效果
 
 右键此扩展可选择 emoji style

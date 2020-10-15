@@ -3,9 +3,10 @@ title = "Vue Element-ui Github oAuth 三方登录"
 author = ["emacle"]
 date = 2020-03-06T11:42:00+08:00
 tags = ["vue", "element", "github", "oauth"]
+categories = ["vue"]
 draft = false
 authorEmoji = "🎅"
-image = "images/feature2/graph.png"
+image = "https://cn.vuejs.org/images/logo.png"
 pinned = true
 +++
 

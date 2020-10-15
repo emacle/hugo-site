@@ -3,9 +3,10 @@ title = "vue token过期无缝刷新"
 author = ["emacle"]
 date = 2020-01-17T10:39:00+08:00
 tags = ["vue", "jwt", "token"]
+categories = ["vue"]
 draft = false
 authorEmoji = "🎅"
-image = "images/feature2/graph.png"
+image = "https://cn.vuejs.org/images/logo.png"
 pinned = true
 +++
 

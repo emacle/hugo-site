@@ -6,7 +6,7 @@ tags = ["hugo"]
 categories = ["hugo", "emacs"]
 draft = false
 authorEmoji = "🎅"
-image = "images/feature2/graph.png"
+image = "https://upload.wikimedia.org/wikipedia/commons/a/a6/Org-mode-unicorn.svg"
 pinned = false
 +++
 
