@@ -4,8 +4,17 @@ description = "Hugo, the world’s fastest framework for building websites"
 type = "about"
 date = "2019-02-28"
 +++
+## Hi there 👋
 
-### Github Stats
+**Thanks for visiting my profile, it's great to meet you here!** 😊
+
+Here are some interested things for me:
+
+- 🐂 [Emacs - a great text editor](https://www.gnu.org/software/emacs/)
+- 🦄 [OrgMode - Your life in plain text](https://orgmode.org/)
+- 🍎 [Hugo - The world’s fastest framework for building websites](https://gohugo.io/)
+- 🍄 [ox-Hugo - Org to Markdown for Hugo](https://ox-hugo.scripter.co/)
+- ‍🐧 Coding is my passion. Linux/php/vue/javascript/mysql
 
 [![emacle's github stats](https://github-readme-stats.vercel.app/api?username=emacle&show_icons=true&theme=radical)](https://github.com/emacle)
 
